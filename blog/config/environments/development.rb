@@ -13,8 +13,19 @@ Blog::Application.configure do
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
 
-  # Don't care if the mailer can't send
-  config.action_mailer.raise_delivery_errors = false
+  # Email configuration
+  config.action_mailer.raise_delivery_errors = true
+
+  # Gmail SMTP server setup
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      #:domain               => 'baci.lindsaar.net',
+      :user_name            => 'xxxxxx@gmail.com',
+      :password             => 'xxxxxx',
+      :authentication       => 'plain',
+      :enable_starttls_auto => true  }
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
