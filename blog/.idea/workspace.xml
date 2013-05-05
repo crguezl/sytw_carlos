@@ -6,11 +6,11 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1361732751839" ignored="false" />
     <file path="/Ruby Console" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363605891843" ignored="false" />
-    <file path="/Dummy.txt" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363694892155" ignored="false" />
+    <file path="/Dummy.txt" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366719289380" ignored="false" />
     <file path="/20130224193949_create_articles.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1361881171294" ignored="false" />
     <file path="/articles_controller.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363871054449" ignored="false" />
     <file path="/article.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363605151238" ignored="false" />
-    <file path="/user.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363259224493" ignored="false" />
+    <file path="/user.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366713960444" ignored="false" />
     <file path="/profile.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1362658382513" ignored="false" />
     <file path="/20130308101804_create_articles_categories.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1362738619050" ignored="false" />
     <file path="/category.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1362745435957" ignored="false" />
@@ -28,7 +28,6 @@
     <file path="/application.html.erb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363608059623" ignored="false" />
     <file path="/_article.html.erb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363605296885" ignored="false" />
     <file path="/_comment.html.erb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363698004637" ignored="false" />
-    <file path="$PROJECT_DIR$/db/schema.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363264482980" ignored="false" />
     <file path="/session_store.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363264582716" ignored="false" />
     <file path="/sessions_controller.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363351304116" ignored="false" />
     <file path="/index.html.erb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363351738281" ignored="false" />
@@ -43,6 +42,16 @@
     <file path="/development.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1364299652098" ignored="false" />
     <file path="/notifier.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363955086067" ignored="false" />
     <file path="/comment_added.html.erb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1363955172240" ignored="false" />
+    <file path="$PROJECT_DIR$/../user-service/db/migrate/001_create_users.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366712143806" ignored="false" />
+    <file path="$PROJECT_DIR$/../user-service/Rakefile" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366713575548" ignored="false" />
+    <file path="/Rakefile" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366713574816" ignored="false" />
+    <file path="$PROJECT_DIR$/../user-service/models/user.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366713978891" ignored="false" />
+    <file path="$PROJECT_DIR$/../user-service/service.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366717274235" ignored="false" />
+    <file path="/service.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366717274235" ignored="false" />
+    <file path="$PROJECT_DIR$/../user-service/spec/service_spec.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366718443807" ignored="false" />
+    <file path="/service_spec.rb" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366718443807" ignored="false" />
+    <file path="$PROJECT_DIR$/../user-service/Gemfile" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366719628818" ignored="false" />
+    <file path="/Gemfile" changelist="78171e9c-ed68-492e-95ca-e9c0e6ae118b" time="1366719625476" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +80,7 @@
       <file leaf-file-name="development.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="38" selection-start="995" selection-end="995" vertical-scroll-proportion="0.5618557">
+            <state line="28" column="0" selection-start="1128" selection-end="1129" vertical-scroll-proportion="0.28350514">
               <folding />
             </state>
           </provider>
@@ -89,7 +98,7 @@
       <file leaf-file-name="comment_added.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/notifier/comment_added.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="214" selection-end="214" vertical-scroll-proportion="-3.2692308">
+            <state line="5" column="6" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -207,25 +216,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,13 +317,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: blog">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
@@ -724,14 +715,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3151515" sideWeight="0.65953946" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2659091" sideWeight="0.65953946" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833335" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -802,36 +793,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/_notify_friend.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="512" selection-end="512" vertical-scroll-proportion="0.6979472" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/notifier/email_friend.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="275" selection-end="275" vertical-scroll-proportion="0.584375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/notifier/email_friend.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.14956012" />
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -880,14 +841,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/notifier/comment_added.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="214" selection-end="214" vertical-scroll-proportion="-3.2692308">
+        <state line="5" column="6" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130224193949_create_articles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="38" selection-start="995" selection-end="995" vertical-scroll-proportion="0.5618557">
+        <state line="28" column="0" selection-start="1128" selection-end="1129" vertical-scroll-proportion="0.28350514">
           <folding />
         </state>
       </provider>
