@@ -1,0 +1,30 @@
+#header {
+  font-family: "Myriad Web Pro", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  border-bottom: 5px solid darkred;
+  color: #333333;
+  padding: 15px 0;
+  height: 35px;
+
+  #user_bar {
+    float: right;
+    font-size: 10px;
+  }
+
+  h1 {
+    padding-top: 14px;
+    float: left;
+    font-size: 30px;
+    a {
+      color: black;
+      &:hover {
+        background-color: whitesmoke;
+        border-bottom: 2px solid #ccc;
+      }
+    }
+  }
+
+  p {
+    float: right;
+  }
+}

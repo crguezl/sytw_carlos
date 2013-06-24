@@ -21,7 +21,6 @@ Blog::Application.configure do
   config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
       :port                 => 587,
-      #:domain               => 'baci.lindsaar.net',
       :user_name            => 'xxxxxx@gmail.com',
       :password             => 'xxxxxx',
       :authentication       => 'plain',

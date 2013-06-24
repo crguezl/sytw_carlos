@@ -1,0 +1,122 @@
+#main {
+  h1 {
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid darkred;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    padding-top: 10px;
+    height: 20px;
+    .actions {
+      display:none;
+      font-weight: normal;
+      font-size: 10px;
+    }
+    &:hover .actions {
+      display: inline;
+    }
+    .number_of_comments {
+      display: inline;
+      font-weight: normal;
+      font-size: 10px;
+    }
+  }
+
+  table {
+    margin: 0;
+  }
+
+  form {
+    text-align: left;
+    br {
+      display: none;
+      float: left;
+    }
+    label {
+      width: 150px;
+      display: block;
+      text-align: right;
+      padding-right: 10px;
+      float: left;
+      line-height: 21px;
+      vertical-align: middle;
+      background-color: #F0F0F0;
+      border: 2px solid #ccc;
+      margin-right: 10px;
+    }
+    label.check_box_label {
+      width: auto;
+      display: inline;
+      text-align: right;
+      padding-right: 10px;
+      line-height: 21px;
+      vertical-align: middle;
+      background-color: whitesmoke;
+      border: none;
+    }
+    .field, .actions {
+      padding-top: 10px;
+      clear: both;
+    }
+    input[type=text], input[type=password], textarea {
+      float: left;
+      font-size: 14px;
+      width: 250px;
+      padding: 2px;
+      border: 2px solid #ccc;
+    }
+    input[type=checkbox] {
+      margin: 4px;
+      float: left;
+    }
+    textarea {
+      height: 150px;
+    }
+    input[type=submit] {
+      margin-left: 175px;
+      float:left;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    #error_explanation {
+      width: 450px;
+      border: 2px solid red;
+      padding: 7px;
+      padding-bottom: 0;
+      margin-bottom: 20px;
+      background-color: #f0f0f0;
+      h2 {
+        text-align: left;
+        font-weight: bold;
+        padding: 5px 5px 5px 15px;
+        font-size: 12px;
+        margin: -7px;
+        margin-bottom: 0px;
+        background-color: #c00;
+        color: #fff;
+      }
+      ul li {
+        font-size: 12px;
+        list-style: square;
+      }
+    }
+    .field_with_errors {
+      label {
+        border: 2px solid red;
+        margin-right: 0;
+      }
+      input, textarea {
+        width: 250px;
+        border: 2px solid red;
+      }
+    }
+  }
+  .article {
+    margin-bottom: 10px;
+  }
+  #comments_header {
+    margin-top: 20px;
+  }
+}

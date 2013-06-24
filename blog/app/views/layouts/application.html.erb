@@ -11,10 +11,11 @@
     <h1><%= link_to "Blog", root_path %></h1>
     <div id="user_bar">
       <% if logged_in? %>
-        <%= link_to "New Article", new_article_path %>
+        <%= link_to "New Article", new_article_path %> |
         <%= link_to "Edit Password", edit_user_path(current_user) %> |
         <%= link_to "Logout", logout_path %>
       <% else %>
+        <%= link_to "Sign up", new_user_path %> |
         <%= link_to "Login", login_path %>
       <% end %>
     </div>
